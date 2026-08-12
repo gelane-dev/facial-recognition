@@ -63,8 +63,8 @@ Webcam → Detecção/Embedding facial (DeepFace) → Comparação com banco (di
 
 ```bash
 # 1. Clonar o repositório
-git clone https://github.com/SEU-USUARIO/NOME-DO-REPO.git
-cd NOME-DO-REPO
+git clone https://github.com/gelane-dev/facial-recognition.git
+cd facial-recognition
 
 # 2. Criar e ativar o ambiente virtual (Python 3.11)
 py -3.11 -m venv venv
@@ -116,4 +116,6 @@ python main.py
 - Anti-spoofing mais avançado (profundidade, textura).
 - Criptografia dos dados biométricos armazenados (conformidade com LGPD).
 
+## Licença
 
+Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais informações.
